@@ -13,6 +13,7 @@ import { ContentLayoutComponent } from './layout/content-layout/content-layout.c
   declarations: [BreadcrumbComponent, FeatherIconComponent, FooterComponent, HeaderComponent, SidebarComponent, ContentLayoutComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [BreadcrumbComponent, FeatherIconComponent, FooterComponent, HeaderComponent, SidebarComponent, ContentLayoutComponent]
 })
 export class SharedModule { }
